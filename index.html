@@ -198,24 +198,7 @@
       <section class="gallery">
         <h2 class="gallery-title title-decor">А можно в картинках?</h2>
         <div class="gallery-card">
-          <img
-            class="img long"
-            src="./images/sunset.png"
-            loading="lazy"
-            alt="Закат"
-          />
-          <img
-            class="img hight"
-            src="./images/ice-cream.png"
-            loading="lazy"
-            alt="Мороженое"
-          />
-          <img
-            class="img hight"
-            src="./images/tape.png"
-            loading="lazy"
-            alt="Кассета"
-          />
+
           <img
             class="img"
             src="./images/books.png"
@@ -229,6 +212,55 @@
             alt="Улица"
           />
         </div>
+        <picture class="img long">
+          <source srcset="./images/sunset.avif" type="image/avif">
+          <source srcset="./images/sunset.webp" type="image/webp">
+          <img
+            loading="lazy"
+            src="./images/sunset.png"
+            alt="Закат"
+          />
+        </picture>
+
+        <picture class="img hight">
+          <source srcset="./images/ice-cream.avif" type="image/avif">
+          <source srcset="./images/ice-cream.webp" type="image/webp">
+          <img
+            loading="lazy"
+            src="./images/ice-cream.png"
+            alt="Мороженое"
+          />
+        </picture>
+
+        <picture class="img hight">
+          <source srcset="./images/tape.avif" type="image/avif">
+          <source srcset="./images/tape.webp" type="image/webp">
+          <img
+            loading="lazy"
+            src="./images/tape.png"
+            alt="Кассета"
+          />
+        </picture>
+
+        <picture class="img">
+          <source srcset="./images/books.avif" type="image/avif">
+          <source srcset="./images/books.webp" type="image/webp">
+          <img
+            loading="lazy"
+            src="./images/books.png"
+            alt="Книги"
+          />
+        </picture>
+
+        <picture class="img long">
+          <source srcset="./images/street.avif" type="image/avif">
+          <source srcset="./images/street.webp" type="image/webp">
+          <img
+            loading="lazy"
+            src="./images/street.png"
+            alt="Улица"
+          />
+        </picture>
       </section>
     </main>
     <footer class="footer decorated-zone">
