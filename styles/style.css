@@ -52,6 +52,10 @@ a:hover {
  border-bottom: 1px solid currentColor;
 }
 
+a:focus {
+  outline: none;
+}
+
 a:focus-visible {
   outline: 1px solid currentColor;
   outline-offset: 1px;
