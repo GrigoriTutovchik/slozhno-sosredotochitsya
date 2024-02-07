@@ -19,7 +19,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr min-content 1fr;
   align-items: center;
-  height: 100vh;
+  block-size: max(668px, 100vh);
   margin-block-end: 3.75rem;
   padding: 1.25rem;
 }
@@ -125,6 +125,7 @@ a:focus-visible {
 .header-subtitle {
   justify-self: end;
   width: calc((100vw - 40px)/2);
+  font-weight: 700;
 }
 
 .title-decor {
@@ -213,7 +214,7 @@ a:focus-visible {
   display: flex;
   place-content: center;
   align-items: center;
-  height: 100vh;
+  block-size: max(668px, 100vh);
   padding: 1.25rem;
 }
 
